@@ -48,7 +48,7 @@ ul li {
   margin-top: 150px;
   font-size: 80px;
   letter-spacing: -3.2px;
-  line-height: 80px;
+  line-height: 80;
 }
 .hero-content button {
   margin-top: 270px;
@@ -79,7 +79,7 @@ ul li {
   text-align: center;
   font-size: 56px;
   font-weight: bold;
-  line-height: 64.4px;
+  line-height: 64.4;
 }
 .AI {
   display: grid;
@@ -90,19 +90,19 @@ ul li {
   font-size: 12px;
   font-weight: 600;
   color: #2563eb;
-  line-height: 18px;
+  line-height: 18;
 }
 .AI h4 {
   font-size: 20px;
   font-weight: bold;
   color: #0d1b2a;
-  line-height: 27.5px;
+  line-height: 27.5;
 }
 .AI p {
   font-size: 14px;
   font-weight: 400;
   color: #575757;
-  line-height: 21px;
+  line-height: 21;
 }
 
 .main-container {
@@ -206,7 +206,6 @@ hr {
 
 .faq-section {
   padding: 20px 40px;
-  color: #333;
 }
 .faq-container {
   max-width: 850px;
@@ -221,15 +220,16 @@ hr {
 }
 
 .faq-header h2 {
-  font-size: 2rem;
+  font-size: 35px;
   font-weight: 800;
   color: #0f172a;
 }
 
+
 .faq-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 11px;
   margin-top: 75px;
   margin-left: 60px;
 }
@@ -296,12 +296,8 @@ hr {
 .social-links img{
     width:28px;
     height:28px;
-    transition:.3s;
+   
 }
-.social-links img:hover{
-    transform:scale(1.15);
-}
-
 .footer hr{
     width:1160px;
     margin:30px auto;
